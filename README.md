@@ -2,7 +2,7 @@
 This is the web service part of my 95702 class project, it serves as the backend for the Android NBA application. 
 
 For the Android Application: 
-//todo
+https://github.com/ziangit/nbaAppAndroidApplication
 
 For the GitHub CodeSpace deployment:
 https://ziangit-ubiquitous-space-fishstick-9r5x6r4v9g9cxqvr.github.dev/
@@ -15,7 +15,6 @@ Besides the Android app, the distribution application also has a browser-based d
 (average latency, most popular player, most popular user agent) and logs. This is achieved by a NoSQL database MongoDB. 
 The webservice records the logs and useful statistics, stores them in the database, and displays the data on the dashboard.
 
-For the 
 
 # Diagram
 The following is a diagram of the components for this part of the NBA application:
