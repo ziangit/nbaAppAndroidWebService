@@ -42,7 +42,7 @@ public class Mongo {
     public static void connectMongoDB(){
 
         // Sample code cited from MongoDB code example
-        connectionString = new ConnectionString("mongodb+srv://ziangs:mongos@cluster0.vvdw47u.mongodb.net/?retryWrites=true&w=majority");
+        connectionString = new ConnectionString("{mongoDBURL}");
         settings = MongoClientSettings.builder()
                 .applyConnectionString(connectionString)
                 .serverApi(ServerApi.builder()

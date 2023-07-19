@@ -100,7 +100,7 @@ public class NBAModel {
         // Fetch data
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://api-nba-v1.p.rapidapi.com/players?name=" + lastName))
-                .header("X-RapidAPI-Key", "c1e809de1emsha1765ab15c6a072p122bfbjsn94d344d4fc22")
+                .header("X-RapidAPI-Key", "{key}")
                 .header("X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
@@ -155,7 +155,7 @@ public class NBAModel {
         // Fetch data
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://api-nba-v1.p.rapidapi.com/players/statistics?id=" + id + "&season=" + season))
-                .header("X-RapidAPI-Key", "c1e809de1emsha1765ab15c6a072p122bfbjsn94d344d4fc22")
+                .header("X-RapidAPI-Key", "{key}")
                 .header("X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
